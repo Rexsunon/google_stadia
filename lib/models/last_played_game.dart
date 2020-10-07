@@ -15,3 +15,7 @@ final lastPlayedGames = [
   LastPlayedGame(name: "Assassins Creed Odyssey", hoursPlayed: 4, gameProgress: 0.10, imgPath: aco),
   LastPlayedGame(name: "Assassins Creed Revelations", hoursPlayed: 14, gameProgress: 0.50, imgPath: acr),
 ];
+
+final popularWithFriends = [
+  far_cry, sekiro, player1
+];

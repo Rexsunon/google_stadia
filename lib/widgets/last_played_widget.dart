@@ -67,7 +67,7 @@ class LastPlayedWidget extends StatelessWidget {
                       ),
                     )
                   ],
-                )
+                ),
               ],
             ),
           ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_stadia/models/friends.dart';
 import 'package:google_stadia/models/last_played_game.dart';
+import 'package:google_stadia/screens/sec_screen.dart';
 import 'package:google_stadia/utils/assets_paths.dart';
 import 'package:google_stadia/utils/colors.dart';
 import 'package:google_stadia/utils/text_styles.dart';
@@ -44,7 +45,9 @@ class HomeScreen extends StatelessWidget {
                       IconButton(
                         icon: Icon(Icons.menu),
                         color: primaryTextColor,
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => SecScreen()));
+                        },
                       ),
                       IconButton(
                         icon: Icon(Icons.search),
